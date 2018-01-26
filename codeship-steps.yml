@@ -1,3 +1,6 @@
 - name: hello-run
   service: hello
-  command: sbt test
+  command: ls
+- name: hello-test
+  service: hello
+  command: pwd

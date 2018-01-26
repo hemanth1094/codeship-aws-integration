@@ -4,3 +4,6 @@
 - name: hello-test
   service: hello
   command: pwd
+- name: hello-testing
+  service: hello
+  command: sbt clean test

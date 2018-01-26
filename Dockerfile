@@ -19,5 +19,5 @@ RUN \
   apt-get install sbt && \
   sbt sbtVersion
 
-
+ADD . /
 

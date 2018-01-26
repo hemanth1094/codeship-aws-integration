@@ -1,0 +1,4 @@
+hello:
+  build:
+    image: hello-world
+    dockerfile: Dockerfile

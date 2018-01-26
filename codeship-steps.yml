@@ -1,0 +1,3 @@
+- name: hello-run
+  service: hello
+  command: sbt test

@@ -1,4 +1,4 @@
-name := "python-scala"
+name := "helloworld"
 
 version := "0.1"
 

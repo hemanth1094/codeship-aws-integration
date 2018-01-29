@@ -3,4 +3,4 @@ hello:
     image: hello-world
     dockerfile: Dockerfile
     volume:
-      - ./src:/data
+      - src:/data

@@ -4,8 +4,6 @@ FROM java:latest
 ENV SCALA_VERSION 2.11.11
 ENV SBT_VERSION 0.13.13
 
-WORKDIR /
-
 RUN \
   curl -fsL https://downloads.typesafe.com/scala/$SCALA_VERSION/scala-$SCALA_VERSION.tgz | tar xfz - -C /root/ && \
   echo >> /root/.bashrc && \
@@ -18,5 +16,7 @@ RUN \
   apt-get update && \
   apt-get install sbt && \
   sbt sbtVersion
+
+WORKDIR /
 
 ADD . /

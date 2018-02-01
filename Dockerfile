@@ -20,4 +20,12 @@ RUN \
 WORKDIR /
 
 
-ADD . /
+ADD src /
+
+ADD codeship-services.yml /
+
+ADD codeship-steps.yml /
+
+ADD dockerfile /
+
+ADD build.sbt /

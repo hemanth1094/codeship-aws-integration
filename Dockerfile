@@ -20,7 +20,7 @@ RUN \
 WORKDIR /
 
 
-ADD src /
+ADD src /src
 
 ADD codeship-services.yml /
 

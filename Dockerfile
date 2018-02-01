@@ -26,6 +26,6 @@ ADD codeship-services.yml /
 
 ADD codeship-steps.yml /
 
-ADD dockerfile /
+ADD Dockerfile /
 
 ADD build.sbt /

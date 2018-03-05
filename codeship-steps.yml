@@ -6,4 +6,4 @@
   command: pwd
 - name: hello-testing
   service: hello
-  command: cd ./src 
+  command: sbt test

@@ -6,4 +6,4 @@
   command: pwd
 - name: hello-testing
   service: hello
-  command: sbt test
+  command: run.sh

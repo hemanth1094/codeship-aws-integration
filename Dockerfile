@@ -29,3 +29,5 @@ ADD codeship-steps.yml /
 ADD Dockerfile /
 
 ADD build.sbt /
+
+ADD run.sh /

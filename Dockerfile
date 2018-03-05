@@ -17,7 +17,7 @@ RUN \
   apt-get install sbt && \
   sbt sbtVersion
 
-WORKDIR /
+WORKDIR /src
 
 
 ADD src /src

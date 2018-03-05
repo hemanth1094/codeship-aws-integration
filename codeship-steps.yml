@@ -6,4 +6,4 @@
   command: pwd
 - name: hello-testing
   service: hello
-  command: sbt clean test
+  command: cd  && sbt clean test

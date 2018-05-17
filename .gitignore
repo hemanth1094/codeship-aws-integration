@@ -2,3 +2,4 @@
 .env.encrypted
 codeship.aes
 .idea/
+target/

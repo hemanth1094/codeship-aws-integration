@@ -19,4 +19,4 @@ RUN \
 
 WORKDIR /
 
-ADD src /src
+ADD . /

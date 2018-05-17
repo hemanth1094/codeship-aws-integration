@@ -4,13 +4,10 @@
 - name: hello-test
   service: hello
   command: pwd
-- name: hello-testing
-  service: hello
-  command: sh run.sh
 - name: module1-test
   service: module1
   command: ls
 - service: module1
   type: push
   image_name: hemanth1094/module-image
-  encrypted_dockercfg_path: env.encrypted
+  encrypted_dockercfg_path: .env.encrypted

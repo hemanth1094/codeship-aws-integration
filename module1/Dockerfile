@@ -19,19 +19,4 @@ RUN \
 
 WORKDIR /
 
-
 ADD src /src
-
-ADD module1 /module1
-
-ADD codeship-services.yml /
-
-ADD codeship-steps.yml /
-
-ADD Dockerfile /
-
-ADD build.sbt /
-
-ADD run.sh /
-
-ADD .env.encrypted /

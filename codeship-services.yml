@@ -1,6 +1,13 @@
+module1:
+  build:
+    image: hemanth1094/module-image
+    dockerfile: ./module1/Dockerfile
+  encrypted_env_file: env.encrypted
+
 hello:
   build:
     image: hello-world
     dockerfile: Dockerfile
   cached: true
+
 

@@ -2,3 +2,4 @@ dockercfg
 codeship.aes
 .idea/
 target/
+aws-deployment.env

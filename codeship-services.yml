@@ -1,12 +1,10 @@
-module1:
-  build:
-    image: hemanth1094/module-image
-    dockerfile: ./module1/Dockerfile
-
 hello:
   build:
-    image: hello-world
+    image: 709671075043.dkr.ecr.us-east-1.amazonaws.com/decooda-dpm:hello
     dockerfile: Dockerfile
   cached: true
 
-
+aws_dockercfg:
+  image: codeship/aws-ecr-dockercfg-generator
+  add_docker: true
+  encrypted_env_file: aws-deployment.env.encrypted

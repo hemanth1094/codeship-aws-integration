@@ -1,1 +1,1 @@
-Sample project for CI/CD for codeship Pro
+Sample project for CI/CD with codeship Pro

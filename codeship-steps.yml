@@ -1,6 +1,5 @@
 -  service: hello
    type: push
-   tag: ^(master|integration)
    image_name: 709671075043.dkr.ecr.us-east-1.amazonaws.com/decooda-dpm
    image_tag: hello
    registry: https://709671075043.dkr.ecr.us-east-1.amazonaws.com

@@ -11,6 +11,6 @@
     - service: awsdeployment
       command: aws ecs register-task-definition --cli-input-json file:///deploy/tasks/backend.json
     - service: awsdeployment
-      command: aws ecs update-service --service my-service --task-definition backend
+      command: aws ecs update-service --service my-service --task-definition my-task:3
     - service: awsdeployment
-      command: aws ecs run-task --cluster default --task-definition backend --count 5
+      command: aws ecs run-task --cluster default --task-definition my-task:3 --count 1

@@ -22,4 +22,3 @@ WORKDIR /
 
 ADD . /
 
-CMD ["sh", "run.sh"]

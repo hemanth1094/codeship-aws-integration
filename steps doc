@@ -1,0 +1,19 @@
+1) To tag the image
+	image_tag: tag_name_for_image
+
+2) to build image for particular branch
+	tag: branch_name
+
+3) to get branch name
+        {{ .Branch }}
+
+4) to build images for branch starting with particular name
+	tag: ^(branch_name)
+
+5) to build images for branch starting with particular names
+	tag: ^(branch_name1|branch_name2)
+
+6) to exclude build images for branch starting with particular names
+	exclude: ^(branch_name1|branch_name2)
+
+

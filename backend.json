@@ -3,9 +3,13 @@
     {
       "name": "test",
       "image": "709671075043.dkr.ecr.us-east-1.amazonaws.com/decooda-dpm:hello",
-      "memory": 500
+      "memoryReservation": 500,
+      "command": [
+                "sbt",
+                "test"
+       ],
     }
   ],
-  "family": "backend"
+  "family": "my-task"
 }
 

@@ -2,7 +2,7 @@
   "containerDefinitions": [
     {
       "name": "test",
-      "image": "709671075043.dkr.ecr.us-east-1.amazonaws.com/decooda-dpm:hello123",
+      "image": "709671075043.dkr.ecr.us-east-1.amazonaws.com/decooda-dpm:hello",
       "memoryReservation": 500,
       "command": [
                 "sbt",

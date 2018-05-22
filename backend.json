@@ -7,7 +7,7 @@
       "command": [
                 "sbt",
                 "test"
-       ],
+       ]
     }
   ],
   "family": "my-task"

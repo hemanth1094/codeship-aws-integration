@@ -1,16 +1,2 @@
--  service: hello
-   type: push
-   image_name: 709671075043.dkr.ecr.us-east-1.amazonaws.com/decooda-dpm
-   image_tag: hello
-   registry: https://709671075043.dkr.ecr.us-east-1.amazonaws.com
-   dockercfg_service: aws_dockercfg
-- type: parallel
-  steps:
-  - type: serial
-    steps:
-    - service: awsdeployment
-      command: aws ecs register-task-definition --cli-input-json file:///deploy/tasks/backend.json
-    - service: awsdeployment
-      command: aws ecs update-service --service my-service --task-definition my-task:3
-    - service: awsdeployment
-      command: aws ecs run-task --cluster default --task-definition my-task:3 --count 1
+- service: hello
+  command: ls

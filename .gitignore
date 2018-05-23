@@ -1,5 +1,9 @@
 dockercfg
+target/
+project/target/
+.target/
 codeship.aes
 .idea/
-target/
+target/*
 aws-deployment.env
+project/target/*

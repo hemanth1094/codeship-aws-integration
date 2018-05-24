@@ -8,6 +8,6 @@ class HelloWorldTest extends FunSuite{
   val helloWorld = new HelloWorld
   test("able get message"){
     logger.info("testing...")
-    assert(helloWorld.greeting("hi") === "hi")
+    assert(helloWorld.greeting("hi") === "hii")
   }
 }

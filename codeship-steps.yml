@@ -1,8 +1,8 @@
--  service: run-test-cases
+-  service: hello
    command: sbt test
--  service: run-test-cases1
+-  service: hello
    command: pwd
--  service: run-test-cases2
+-  service: hello
    command: ls
 -  service: hello
    type: push

@@ -1,0 +1,9 @@
+dockercfg
+target/
+project/target/
+.target/
+codeship.aes
+.idea/
+target/*
+aws-deployment.env
+project/target/*

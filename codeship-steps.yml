@@ -1,9 +1,12 @@
-- name: hello-run
-  service: hello
-  command: ls
-- name: hello-test
-  service: hello
-  command: pwd
-- name: hello-testing
-  service: hello
-  command: sbt clean test
+-  service: hello
+   command: sbt test
+-  service: hello
+   command: pwd
+-  service: hello
+   command: ls
+-  service: hello
+   type: push
+   image_name: 709671075043.dkr.ecr.us-east-1.amazonaws.com/decooda-dpm
+   image_tag: hello
+   registry: https://709671075043.dkr.ecr.us-east-1.amazonaws.com
+   dockercfg_service: aws_dockercfg

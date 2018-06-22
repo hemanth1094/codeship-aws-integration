@@ -19,7 +19,6 @@ RUN \
 
 WORKDIR /
 
-
 ADD . .
 
 ADD codeship-services.yml /

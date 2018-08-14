@@ -6,8 +6,8 @@
 		module="helloworld_2.11"
 		revision="0.1"
 		conf="plugin"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180608122853"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180814143326"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
